@@ -1,6 +1,8 @@
 import React from "react";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Stats from "./components/Stats";
 import styles from "./styles.js";
 
 const App = () => {
@@ -16,6 +18,10 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
+      </div>
+      <div className={`${styles.marginX}`}>
+        <Stats />
+        <Features />
       </div>
     </div>
   );
