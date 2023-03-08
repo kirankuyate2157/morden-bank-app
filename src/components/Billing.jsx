@@ -5,7 +5,7 @@ import styles, { layout } from "../styles";
 const Billing = () => {
   return (
     <>
-      <section className={`${layout.section} `}>
+      <section className={`${layout.section}  `} id="product">
         <div className={`${layout.sectionImg} `}>
           <img
             src={bill}

@@ -4,6 +4,7 @@ import CardDeals from "./components/CardDeals";
 import Clients from "./components/Clients";
 import CTA from "./components/CTA";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
@@ -32,6 +33,7 @@ const App = () => {
         <Termonials />
         <Clients />
         <CTA />
+        <Footer />
       </div>
     </div>
   );

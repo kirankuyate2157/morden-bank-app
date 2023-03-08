@@ -3,7 +3,7 @@ import { card } from "../assets";
 import styles, { layout } from "../styles";
 const CardDeals = () => {
   return (
-    <section id="features" className={layout.sectionReverse}>
+    <section id="Solution" className={layout.sectionReverse}>
       <div className={layout.sectionInfo}>
         <h1 className={`${styles.heading2}`}>
           Find a better card deal <br className="sm:block hidden" />
