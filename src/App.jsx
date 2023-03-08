@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
+import Termonials from "./components/Termonials";
 import styles from "./styles.js";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Features />
         <Billing />
         <CardDeals />
+        <Termonials />
       </div>
     </div>
   );
