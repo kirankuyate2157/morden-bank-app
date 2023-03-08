@@ -1,6 +1,7 @@
 import React from "react";
 import Billing from "./components/Billing";
 import CardDeals from "./components/CardDeals";
+import Clients from "./components/Clients";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -28,6 +29,7 @@ const App = () => {
         <Billing />
         <CardDeals />
         <Termonials />
+        <Clients />
       </div>
     </div>
   );
