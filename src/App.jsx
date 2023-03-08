@@ -1,5 +1,6 @@
 import React from "react";
 import Billing from "./components/Billing";
+import CardDeals from "./components/CardDeals";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -24,6 +25,7 @@ const App = () => {
         <Stats />
         <Features />
         <Billing />
+        <CardDeals />
       </div>
     </div>
   );
