@@ -1,4 +1,5 @@
 import React from "react";
+import Billing from "./components/Billing";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -22,6 +23,7 @@ const App = () => {
       <div className={`${styles.marginX}`}>
         <Stats />
         <Features />
+        <Billing />
       </div>
     </div>
   );
