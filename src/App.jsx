@@ -2,6 +2,7 @@ import React from "react";
 import Billing from "./components/Billing";
 import CardDeals from "./components/CardDeals";
 import Clients from "./components/Clients";
+import CTA from "./components/CTA";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -30,6 +31,7 @@ const App = () => {
         <CardDeals />
         <Termonials />
         <Clients />
+        <CTA />
       </div>
     </div>
   );
